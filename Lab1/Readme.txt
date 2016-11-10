@@ -1,4 +1,6 @@
-En la práctica de transmisión UDP, entregar lo siguiente:
+Código de ejemplo de una comunicación Cliente-Servidor sobre UDP
+
+Este código es la base para la práctica de transmisión UDP, donde se debe entregar lo siguiente:
 
 1.	Captura de pantalla con datos de la interfaz utilizada para el envío del paquete del lado del cliente
 2.	Captura de pantalla con datos de la interfaz utilizada para el envío del paquete del lado del servidor
