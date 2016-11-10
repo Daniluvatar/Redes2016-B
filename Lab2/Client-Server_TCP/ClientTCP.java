@@ -8,7 +8,7 @@ import java.net.Socket;
 import javax.swing.JOptionPane;
 
 /**
- * Trivial client for the date server.
+ * Trivial TCP client.
  */
 public class DateClient {
 
@@ -23,22 +23,20 @@ public class DateClient {
 	
 	public static void main(String[] args) throws IOException {
         
-		String serverAddress = JOptionPane.showInputDialog(
-            "Enter IP Address of a machine that is\n" +
-            "running the date service on port "+SERVER_PORT+":");
+		String serverAddress = JOptionPane.showInputDialog("Enter IP Address of a machine that is\n" +
+            							   "running the date service on port "+SERVER_PORT+":");
         
+	//Establece la conexión con el servidor mediante un socket
         Socket clientSocket = new Socket(serverAddress, SERVER_PORT);
         
-        //Obtiene el paquete enviado por el servidor
-        InputStreamReader inputSrem = new InputStreamReader(clientSocket.getInputStream());
+        //Obtiene el mensaje enviado por el servidor a través del socket
+        InputStreamReader inputStream = new InputStreamReader(clientSocket.getInputStream());
         
-        //Lee los datos enviados a travez del socket
-        BufferedReader input = new BufferedReader(inputSrem);
+        //Lee los datos del mensaje
+        BufferedReader input = new BufferedReader(inputStream);
         String answer = input.readLine();
         
-        //String answer2 = input.readLine();
-        //System.out.println("answer2: "+answer2);
-        //Imprime el mensaje
+        //Imprime los datos del mensaje
         JOptionPane.showMessageDialog(null, answer);
         System.exit(0);
     }
