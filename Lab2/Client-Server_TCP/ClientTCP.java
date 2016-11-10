@@ -10,7 +10,7 @@ import javax.swing.JOptionPane;
 /**
  * Trivial TCP client.
  */
-public class DateClient {
+public class ClientTCP {
 
 	private static int SERVER_PORT = 9090;
 	
