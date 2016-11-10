@@ -1,6 +1,6 @@
 # Redes2016-B
 
-Cada estudiante debe crear una cuenta en GitHub y crear carpeta con su nombre con el siguiente formato: *Nombre_Apellido*
+Cada estudiante debe crear una cuenta en GitHub y crear una carpeta con su nombre con el siguiente formato: *Nombre_Apellido_Redes2016-B*
 
 Dentro de la carpeta *Nombre_Apellido*, crear una carpeta con el número de laboratorio correspondiente con el siguiente formato: *DeberLab1*
 
