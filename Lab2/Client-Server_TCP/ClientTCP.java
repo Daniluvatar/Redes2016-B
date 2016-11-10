@@ -17,7 +17,7 @@ public class DateClient {
 	/**
      * Runs the client as an application.  First it displays a dialog
      * box asking for the IP address or hostname of a host running
-     * the date server, then connects to it and displays the date that
+     * the server, then connects to it and displays the message that
      * it serves.
      */
 	
