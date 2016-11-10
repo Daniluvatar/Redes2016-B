@@ -13,6 +13,7 @@ Este código sirve como base para el deber de laboratorio, el mismo que consiste
 5) El cliente despliega el resultado *c* en un mensaje
 
 
+***********************************************************************************************
 Si se requiere eliminar procesos en Windows:
 
 a. Identificar el proceso con el comando *netstat -ano*
