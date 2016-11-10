@@ -1,4 +1,4 @@
-package ec.edu.epn.redes.date.tcp;
+package ec.edu.epn.redes.cs.tcp;
 
 import java.io.BufferedReader;
 import java.io.IOException;
