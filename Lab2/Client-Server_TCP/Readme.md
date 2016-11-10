@@ -1,4 +1,4 @@
-Código de ejemplo de una conexión TCP.
+Código de ejemplo de una comunicación Cliente-Servidor sobre una conexión TCP.
 
 Este código sirve como base para el deber de laboratorio, el mismo que consiste de una simple suma de dos números. Básicamente el procedimiento a seguir sería al siguiente:
 
