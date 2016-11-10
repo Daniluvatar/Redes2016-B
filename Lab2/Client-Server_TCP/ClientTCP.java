@@ -26,19 +26,19 @@ public class DateClient {
 		String serverAddress = JOptionPane.showInputDialog("Enter IP Address of a machine that is\n" +
             							   "running the date service on port "+SERVER_PORT+":");
         
-	//Establece la conexión con el servidor mediante un socket
-        Socket clientSocket = new Socket(serverAddress, SERVER_PORT);
-        
-        //Obtiene el mensaje enviado por el servidor a través del socket
-        InputStreamReader inputStream = new InputStreamReader(clientSocket.getInputStream());
-        
-        //Lee los datos del mensaje
-        BufferedReader input = new BufferedReader(inputStream);
-        String answer = input.readLine();
-        
-        //Imprime los datos del mensaje
-        JOptionPane.showMessageDialog(null, answer);
-        System.exit(0);
+		//Establece la conexión con el servidor mediante un socket
+		Socket clientSocket = new Socket(serverAddress, SERVER_PORT);
+
+		//Obtiene el mensaje enviado por el servidor a través del socket
+		InputStreamReader inputStream = new InputStreamReader(clientSocket.getInputStream());
+
+		//Lee los datos del mensaje
+		BufferedReader input = new BufferedReader(inputStream);
+		String answer = input.readLine();
+
+		//Imprime los datos del mensaje
+		JOptionPane.showMessageDialog(null, answer);
+		System.exit(0);
     }
 	
 }
