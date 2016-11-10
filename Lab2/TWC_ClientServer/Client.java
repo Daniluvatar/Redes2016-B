@@ -1,1 +1,0 @@
-public pruebas = 0;
