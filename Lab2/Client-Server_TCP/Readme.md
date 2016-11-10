@@ -15,12 +15,12 @@ Este código sirve como base para el deber de laboratorio, el mismo que consiste
 
 Si se requiere eliminar procesos en Windows:
 
-a. Identificar el proceso con el comando netstat -ano
+a. Identificar el proceso con el comando *netstat -ano*
 
-b. Eliminar el proceso con el comando taskkill -pid <#proceso> /f
+b. Eliminar el proceso con el comando *taskkill -pid <#proceso> /f*
 
 Si se requiere eliminar procesos en Linux:
 
-a. Identificar el proceso con el comando lsof -i:<port>
+a. Identificar el proceso con el comando *lsof -i:<port>*
 
-b. Eliminar el proceso con el comando kill <pid>
+b. Eliminar el proceso con el comando *kill <#proceso>*
