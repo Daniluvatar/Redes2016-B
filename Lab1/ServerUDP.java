@@ -39,12 +39,11 @@ public class ServerUDP {
 		    String msg = "Message from Server";
 	            byte bufferSend[] = msg.getBytes();
 	            DatagramPacket sendPacket = new DatagramPacket(bufferSend,bufferSend.length,clientAdress,clientPort);
-	            long endTime = System.currentTimeMillis();
+		    serverSocket.send(sendPacket);
+	            /*long endTime = System.currentTimeMillis();
 	            System.out.println("Tiempo Final: "+endTime+"\n");
 	            long sendTime = endTime-initialTime;
-	            System.out.println("Envia el paquete en: "+sendTime+" ms\n");
-	            serverSocket.send(sendPacket);
-	            
+	            System.out.println("Envia el paquete en: "+sendTime+" ms\n");*/	            
             }
         }
         finally {
