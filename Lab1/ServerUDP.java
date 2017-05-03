@@ -36,7 +36,8 @@ public class ServerUDP {
 	            System.out.println("Client port: "+clientPort+"\n");
 	            
 	            //Send packet
-	            byte bufferSend[] = "Danilo".getBytes(); //Cambiar por el nombre del estudiante que corresponda
+		    String msg = "Message from Server";
+	            byte bufferSend[] = msg.getBytes(); //Cambiar por el nombre del estudiante que corresponda
 	            DatagramPacket sendPacket = new DatagramPacket(bufferSend,bufferSend.length,clientAdress,clientPort);
 	            long endTime = System.currentTimeMillis();
 	            System.out.println("Tiempo Final: "+endTime+"\n");
