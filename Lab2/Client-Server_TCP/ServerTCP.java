@@ -28,7 +28,7 @@ public class ServerTCP {
                 Socket socket = serverSocket.accept();
                 try {
                     PrintWriter out = new PrintWriter(socket.getOutputStream(), true);
-                    out.println("Server message"); //Cambiar por el nombre que corresponda
+                    out.println("Message from Server");
                 } finally {
                     socket.close();
                 }
