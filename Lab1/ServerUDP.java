@@ -43,7 +43,8 @@ public class ServerUDP {
 	            /*long endTime = System.currentTimeMillis();
 	            System.out.println("Tiempo Final: "+endTime+"\n");
 	            long sendTime = endTime-initialTime;
-	            System.out.println("Envia el paquete en: "+sendTime+" ms\n");*/	            
+	            System.out.println("Envia el paquete en: "+sendTime+" ms\n");
+		    serverSocket.send(sendPacket);*/	            
             }
         }
         finally {
