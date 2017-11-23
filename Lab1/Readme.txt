@@ -10,7 +10,7 @@ Este código es la base para la práctica de transmisión UDP, donde se debe ent
 6.	Grafico explicativo del viaje del paquete por los dispositivos involucrados
 
 Las capturas de pantalla incluirlo en el informe de laboratorio.
-El código utilizado debe ser subido en Github, en el informe de laboratorio solo se debe incluir el enlace a Github
+El código utilizado debe ser subido en Github, en el informe de laboratorio NO debe ir código fuente, solo se debe incluir el enlace respetivo a Github.
 
 Para los puntos 1 y 2, si la prueba se la hace en Windows usar el comando ipconfig -all
 Para los puntos 1 y 2, si la prueba se la hace en Linux usar el comando ifconfig
